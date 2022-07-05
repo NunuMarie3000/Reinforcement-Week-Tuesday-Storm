@@ -174,3 +174,61 @@
 //  Start with an initial image of guy1.png then every .5 second (500 ms) 
 //  update the image to the next one in sequence. Once you reach image guy9.png 
 //  start over with the guy1.png image.
+
+//maybe i can put all the img in an array, iterate through it at a certian time limit, with each array item, set display to block instead of none, use the .classList.toggle() method
+//i don't know if i'd be able to control the speed this way...
+let one = document.getElementById('one');
+let two = document.getElementById('two');
+let three = document.getElementById('three');
+let four = document.getElementById('four');
+let five = document.getElementById('five');
+let six = document.getElementById('six');
+let seven = document.getElementById('seven');
+let eight = document.getElementById('eight');
+let nine = document.getElementById('nine');
+let lilGuyArr = [one, two, three, four, five, six, seven, eight, nine];
+let button = document.getElementById('button');
+
+// function loopAndSetDisplay(){
+//   for(let i=0; i<lilGuyArr.length; i++){
+//     lilGuyArr[i].classList.toggle('shown');
+//   }
+// }
+//NOTE: every 500 ms, we wanna start looping all of them, but that 500ms isn't 
+function loopAndSetDisplay(){
+  lilGuyArr[0].classList.toggle('shown');
+}
+function loopAndSetDisplay2(){
+  lilGuyArr[1].classList.toggle('shown');
+}
+function loopAndSetDisplay3(){
+  lilGuyArr[2].classList.toggle('shown');
+}
+function loopAndSetDisplay4(){
+  lilGuyArr[3].classList.toggle('shown');
+}
+function loopAndSetDisplay5(){
+  lilGuyArr[4].classList.toggle('shown');
+}
+function loopAndSetDisplay6(){
+  lilGuyArr[5].classList.toggle('shown');
+}
+function loopAndSetDisplay7(){
+  lilGuyArr[6].classList.toggle('shown');
+}
+function loopAndSetDisplay8(){
+  lilGuyArr[7].classList.toggle('shown');
+}
+function loopAndSetDisplay9(){
+  lilGuyArr[8].classList.toggle('shown');
+}
+setInterval(loopAndSetDisplay, 200);
+// setInterval(loopAndSetDisplay2, 250);
+// setInterval(loopAndSetDisplay3, 300);
+// setInterval(loopAndSetDisplay4, 200);
+// setInterval(loopAndSetDisplay5, 250);
+// setInterval(loopAndSetDisplay6, 300);
+// setInterval(loopAndSetDisplay7, 200);
+// setInterval(loopAndSetDisplay8, 250);
+// setInterval(loopAndSetDisplay9, 300);
+//NOTE: at this point, i have no idea what i'm doing, some of the pictures are, like, animating, but not cohesively, i don't understand why they're animating??? very confused

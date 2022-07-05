@@ -14,7 +14,8 @@ In your own words, why do we use arrays in Javascript
 
 - Question 3
 In your own words, when should we use an array?
-  * Its easy. You can iterate through one to get your information, there are many methods you can use witht it
+  * Its easy. You can iterate through one to get your information, there are many methods you can use with it
+  * should be used whenever you wanna group things together to access later
 
 - Question 4
  What are 3 kinds of array methods, and how do we use them?

@@ -1,0 +1,12 @@
+#print-lil-guy-here{
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden{
+    display: none;
+}
+
+.shown{
+    display: block;
+}
