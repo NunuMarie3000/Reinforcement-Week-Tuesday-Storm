@@ -6,19 +6,26 @@ Answer the questions below, then complete the exercises
 
 - Question 1 
     What is an array in JS?
+    * Looks like this => [], can hold any time of data type, multiple data types, any info you need to group together that you need to access later
 
 - Question 2
 In your own words, why do we use arrays in Javascript
+  * Ease of access, instead of declaring individual variables that stand for a bunch of differnt items, you can make an array, put everything inside, and reference your data from the array
 
 - Question 3
 In your own words, when should we use an array?
+  * Its easy. You can iterate through one to get your information, there are many methods you can use witht it
 
 - Question 4
  What are 3 kinds of array methods, and how do we use them?
+  * .length, returns the length of the array, ex: myArray.length returns the length of myArray
+  * .push, adds item to end of array, ex: myArray.push('banana'); adds the string 'banana' as the last item of myArray
+  * .toString, returns array items as a string instead of array; ex: myArray.toString returns 'banana' instead of ['banana']
 
  - Question 5
  What ar two examples of higher order Array methods? 
-
+  * array.prototype.map(), tracks every item in the array and returns a new array; ex: let myOtherArray = myArray.map(arrayItem => arrayItem + 's') returns ['bananas']
+  * array.prototype.filter(), creates new array that keeps the results of the previous array if it passes the boolean given ex: thisArray = [45, 73, 98, 12] let thisOtherArray = thisArray.filter(arrayItem => arrayItem <= 70), would return [45, 12] 
 
 
 #### Exercise 1

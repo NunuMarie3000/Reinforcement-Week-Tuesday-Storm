@@ -6,13 +6,17 @@ Answer the questions below, the complete the exercises
 
 - Question 1 
     What is a variable in JS?
+        * a name we assign something to
 
 - Question 2
 In your own words, why do we use variables in Javascript?
+        * so we can refer to the certain things in our code without writing it over and over again
 
 - Question 3
 How do we know which variable to use? (var, let & const)
-
+        *depends what we need it for, if its something that's going to change, or something that's always going to remain constant, etc.
+        *let is preferred over var, essentially does the same thing
+        * const variables' values remain constant
 
 
 - Exercise 1

@@ -6,16 +6,19 @@ Answer the questions below, then complete the exercises
 
 - Question 1 
     What is a function in JS?
+        * a reusable chunk of code
 
 - Question 2
 In your own words, why do we use functions in Javascript?
+    * so that we can reuse a block of code in different areas of our entire code
 
 - Question 3
 In your own words, when should we use a function?
+    * when we need to use a certain block of code more than once and rewriting it would be wasteful
 
 - Question 4
  What is a higher order function in Javascript? (requires research on your own ;))
-
+    * a function that takes in functions as parameters and/or returns a function
 
 
 
